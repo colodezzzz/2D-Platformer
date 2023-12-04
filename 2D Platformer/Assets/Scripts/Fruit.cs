@@ -1,11 +1,12 @@
 using UnityEngine;
 
+[RequireComponent(typeof(Animator), typeof(Collider2D))]
 public class Fruit : MonoBehaviour
 {
+    private const string CollectAnimationName = "Collect";
+
     private Animator _animator;
     private Collider2D _collider;
-
-    private string _collectAnimationName;
 
     private void Awake()
     {
@@ -13,13 +14,11 @@ public class Fruit : MonoBehaviour
         _collider = GetComponent<Collider2D>();
 
         _collider.isTrigger = true;
-
-        _collectAnimationName = "Collect";
     }
 
     public void Collect()
     {
-        _animator.Play(_collectAnimationName);
+        _animator.Play(CollectAnimationName);
     }
 
     public void Destroy()
