@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 3075922031391199708}
   - component: {fileID: 6560681993950974892}
   - component: {fileID: 2428014555238068100}
-  - component: {fileID: 615753346562791526}
   - component: {fileID: 3635261073290386986}
+  - component: {fileID: 615753346562791526}
+  - component: {fileID: 784052024536669331}
   m_Layer: 0
   m_Name: Apple
   m_TagString: Untagged
@@ -108,18 +109,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &615753346562791526
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7326064585058610226}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f0fbf0094386cb949b6b57391c1997ea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &3635261073290386986
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -155,3 +144,27 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.37
+--- !u!114 &615753346562791526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7326064585058610226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0fbf0094386cb949b6b57391c1997ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &784052024536669331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7326064585058610226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bd6594707f5fd49832fbde32bc95fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

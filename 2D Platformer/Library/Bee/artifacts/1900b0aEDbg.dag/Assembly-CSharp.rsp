@@ -388,10 +388,17 @@
 "Assets/Scripts/Character/PlayerAnimationController.cs"
 "Assets/Scripts/Character/PlayerCollect.cs"
 "Assets/Scripts/Character/PlayerController.cs"
+"Assets/Scripts/Character/PlayerHitZone.cs"
+"Assets/Scripts/Enemy/EnemyCheckPlayerZone.cs"
+"Assets/Scripts/Enemy/EnemyHitZone.cs"
 "Assets/Scripts/Enemy/EnemyMovement.cs"
 "Assets/Scripts/Enemy/EnemyRotation.cs"
-"Assets/Scripts/Fruit.cs"
-"Assets/Scripts/FruitSpawner.cs"
+"Assets/Scripts/Health.cs"
+"Assets/Scripts/Items/Fruits/Fruit.cs"
+"Assets/Scripts/Items/Fruits/FruitSpawner.cs"
+"Assets/Scripts/Items/Heals/Heal.cs"
+"Assets/Scripts/Items/Heals/HealSpawner.cs"
+"Assets/Scripts/Items/Item.cs"
 -langversion:9.0
 
 /deterministic

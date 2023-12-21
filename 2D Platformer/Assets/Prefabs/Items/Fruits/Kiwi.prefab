@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5646433073430131202}
   - component: {fileID: 6211405755635268835}
   - component: {fileID: 4305578699393845659}
+  - component: {fileID: -611207643352555490}
   m_Layer: 0
   m_Name: Kiwi
   m_TagString: Untagged
@@ -153,5 +154,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0fbf0094386cb949b6b57391c1997ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-611207643352555490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7159030676103318887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bd6594707f5fd49832fbde32bc95fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

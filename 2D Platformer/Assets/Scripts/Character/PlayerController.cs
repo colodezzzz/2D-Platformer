@@ -61,6 +61,9 @@ public class PlayerController : MonoBehaviour
 
     private void Move()
     {
-        _rigidbody.velocity = new Vector2(Direction * _movementSpeed, _rigidbody.velocity.y);
+        if (_rigidbody.bodyType == RigidbodyType2D.Dynamic)
+        {
+            _rigidbody.velocity = new Vector2(Direction * _movementSpeed, _rigidbody.velocity.y);
+        }
     }
 }

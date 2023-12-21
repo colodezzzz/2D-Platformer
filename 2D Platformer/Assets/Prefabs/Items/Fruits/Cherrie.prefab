@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2279627250289173626}
   - component: {fileID: 5434682730212487957}
   - component: {fileID: 2886620713045134833}
+  - component: {fileID: -8757906745013422582}
   m_Layer: 0
   m_Name: Cherrie
   m_TagString: Untagged
@@ -153,5 +154,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0fbf0094386cb949b6b57391c1997ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8757906745013422582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8766489027586689788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bd6594707f5fd49832fbde32bc95fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
