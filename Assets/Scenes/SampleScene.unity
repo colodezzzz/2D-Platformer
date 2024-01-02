@@ -393,11 +393,11 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
+  near clip plane: 0.1
+  far clip plane: 5000
+  field of view: 40
   orthographic: 1
-  orthographic size: 11
+  orthographic size: 10
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -422,7 +422,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.4444447, y: -2, z: -10}
+  m_LocalPosition: {x: -3.2222223, y: -3, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1010,10 +1010,10 @@ MonoBehaviour:
   m_LookAt: {fileID: 0}
   m_Follow: {fileID: 1720506234}
   m_Lens:
-    FieldOfView: 60
-    OrthographicSize: 11
-    NearClipPlane: 0.3
-    FarClipPlane: 1000
+    FieldOfView: 40
+    OrthographicSize: 10
+    NearClipPlane: 0.1
+    FarClipPlane: 5000
     Dutch: 0
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
@@ -1057,8 +1057,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_BoundingShape2D: {fileID: 836761513}
-  m_Damping: 0.5
-  m_MaxWindowSize: -1
+  m_Damping: 0
+  m_MaxWindowSize: 0
 --- !u!1 &1392646653
 GameObject:
   m_ObjectHideFlags: 3
@@ -49030,7 +49030,6 @@ GameObject:
   - component: {fileID: 2062239490}
   - component: {fileID: 2062239489}
   - component: {fileID: 2062239488}
-  - component: {fileID: 2062239493}
   m_Layer: 6
   m_Name: Ground
   m_TagString: Untagged
@@ -51946,18 +51945,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &2062239493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2062239486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 209f3a04a366cbd4aae3a0aa90dbb812, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2097387173
 GameObject:
   m_ObjectHideFlags: 0

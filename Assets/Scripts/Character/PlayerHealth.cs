@@ -19,11 +19,6 @@ public class PlayerHealth : MonoBehaviour
         _playerAnimationController = GetComponent<PlayerAnimationController>();
     }
 
-    private void Update()
-    {
-        Debug.Log(_currentHealth);
-    }
-
     public void Heal(int healPoints = BaseHealPoints)
     {
         _currentHealth += healPoints;
